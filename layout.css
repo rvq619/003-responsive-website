@@ -4,93 +4,14 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.container {
-    width: 95%;
-    max-width: 1180px;
-}
-
-.row,
-.column {
-    box-sizing: border-box;
-}
-
-.row:before,
-.row:after {
-    content: " ";
-    display: table;
-}
-
-.row:after {
-    clear: both;
-}
-
-.column {
-    position: relative;
-    float: left;
-}
-
-.column + .column {
-    margin-left: 1.6%;
-}
-
-.column-1 {
-    width: 6.86666666667%;
-}
-
-.column-2 {
-    width: 15.3333333333%;
-}
-
-.column-3 {
-    width: 23.8%;
-}
-
-.column-4 {
-    width: 32.2666666667%;
-}
-
-.column-5 {
-    width: 40.7333333333%;
-}
-
-.column-6 {
-    width: 49.2%;
-}
-
-.column-7 {
-    width: 57.6666666667%;
-}
-
-.column-8 {
-    width: 66.1333333333%;
-}
-
-.column-9 {
-    width: 74.6%;
-}
-
-.column-10 {
-    width: 83.0666666667%;
-}
-
-.column-11 {
-    width: 91.5333333333%;
-}
-
-.column-12 {
-    width: 100%;
-}
-
 .left {
     float: left;
 }
 
 header {
-    
 }
 
 nav {
-
 }
 
 nav ul {
@@ -100,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline
 }
 
 nav ul li a {
@@ -109,7 +30,6 @@ nav ul li a {
 }
 
 section {
-
 }
 
 section.showslisting {
@@ -117,11 +37,12 @@ section.showslisting {
 }
 
 section.tvshow {
-    height: auto;
+    width: 125px;
+    height: 150px;
+    display: inline-block;
 }
 
 .showdescription {
-    
 }
 
 .thumbnail {
@@ -141,9 +62,11 @@ footer {
     aside {
         display: none;
     }
+
     section.showslisting {
         width: 100%;
     }
+
     .showdescription {
         display: none;
     }
@@ -151,7 +74,6 @@ footer {
 
 /* Extra Small Devices and Phones */
 @media only screen and (min-width: 480px) {
-
 }
 
 /* Small Devices and Tablets */
@@ -171,9 +93,11 @@ footer {
         width: 33%;
         display: block;
     }
+
     section.showslisting {
         width: 66%;
     }
+
     .showdescription {
         white-space: normal;
         width: 125px;
@@ -182,5 +106,4 @@ footer {
 
 /* Large Devices, Wide Screens, TVs */
 @media only screen and (min-width: 1200px) {
-
 }
